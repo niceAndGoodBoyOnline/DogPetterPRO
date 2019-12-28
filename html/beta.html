@@ -1,0 +1,42 @@
+<!DOCTYPE: HTML>
+<html>
+	<head>
+	<title>pet or die!</title>
+	<link rel="stylesheet" href="../css/beta.css"/>
+	</head>
+
+<body>
+
+	<div id="epBar" class='epMeter'>
+		<span id='epBarSpan'>Dog Energy</span>
+	</div>
+	
+	<div id="mpBar" class='mpMeter'>
+		<span id='mpBarSpan'>Dog Mood</span>
+	</div>
+
+	<div id='scoreZone'>Pets: 0</div>
+	
+	
+	<img id='petHand' class="" src="../img/handpet.png" onclick='offerBone()'>
+	
+	<img id='defendHand' class="" src="../img/handpetlo.png" onclick='defendYourself()'>
+	
+	<img id="bossDog" class="" src="../img/bomb_dog.gif" onclick='petDog()'>
+	
+	<audio id='bgm' autoplay loop>
+		<source id='bgmSource' src="../media/boss_dog.mp3" type='audio/ogg'>	
+	</audio>
+	
+	<audio id='fxHuman'>
+		<source id='fxHumanSource' src="../media/big dog.mp3" type='audio/ogg'>	
+	</audio>
+	
+	<audio id='fxDog'>
+		<source id='fxDogSource' src="../media/big dog.mp3" type='audio/ogg'>	
+	</audio>
+	
+	
+</body>
+<script src="../js/beta.js"></script>
+</html>

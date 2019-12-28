@@ -1,0 +1,130 @@
+body{
+	overflow: hidden;
+	position: fixed;
+	
+}
+
+#resetButton{
+	float: right;
+	position: absolute;
+	visibility: hidden;
+	bottom: 2vh;
+}
+
+
+#changeMode{
+	position: absolute;
+	bottom: 2vh;
+	right: 0vw;
+	visibility: hidden;
+}
+
+#bg{
+	z-layer:-10;
+}
+
+#bathHouse{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../img/background_animated.gif) no-repeat fixed; 
+	background-size: 100% 100%;
+	background-position: right bottom;
+	overflow: hidden;
+}
+
+#missBox{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
+
+#dogOne{
+	position: absolute;
+	width: 20vw;
+	height: 10vh;
+	top: 20vh;
+	left: 20vw;
+	z-index: 2;
+}
+
+#dogTwo{
+	position: absolute;
+	width: 40vw;
+	height: 30vh;
+	z-index: 2;
+}
+
+#container{
+	left:-1vw;
+	top:-1.7vh;
+	width: 101vw;
+	height: 100vh;
+	position:relative;
+	overflow: hidden;
+}
+
+#theScore{
+	position: absolute;
+	color: Black;
+	font-size: 3vw;
+	left: 2vw;
+}
+
+#emotionalState{
+	position: absolute;
+	top:5vh;
+	font-size: 3vw;
+	visibility: hidden;
+}
+
+#portDiv{
+		display: none;
+	}
+
+@media screen and (orientation:portrait){
+	
+	#portDiv{
+		display: block;
+		text-align: center;
+		font-size: 8vw;
+	}
+	
+	#resetButton{
+		display: none;
+	}
+
+	#bg{
+		display: none;
+	}
+
+	#missBox{
+		display: none;
+	}
+
+	#dogOne{
+		display: none;
+	}
+
+	#dogTwo{
+		display: none;
+	}
+
+	#container{
+		display: none;
+	}
+
+	#theScore{
+		display: none;
+	}
+
+	#changeMode{
+		display: none;
+	}
+
+	#emotionalState{
+		display: none;
+	}
+	
+}
