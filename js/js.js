@@ -401,4 +401,4 @@ function boss_fight(){
 }
 
 console.log('use function boss_fight() to see the beta mode')
-
+window.scrollTo(0,1);
